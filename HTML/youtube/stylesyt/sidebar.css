@@ -1,0 +1,24 @@
+.sidebar{
+    background-color: white;
+    position: fixed;
+    top: 54px;
+    left:0px;
+    bottom:0px;
+    width: 70px;
+}
+.home{
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 60px;
+    width: 60px;
+    padding: 0;
+    border:none;
+    background-color: white;
+}
+.home img{
+    width: 30px;
+    height: 30px;
+    object-fit: contain;
+}

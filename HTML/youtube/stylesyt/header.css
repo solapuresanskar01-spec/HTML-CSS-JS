@@ -1,0 +1,144 @@
+
+.header{
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+    padding-top: 5px;
+    position: fixed;
+    height: 48px;
+    top:0px;
+    left:0px;
+    right:0px;
+    background-color: white;
+    border-bottom-width: 1px;
+    border-bottom-color: gray;
+    border-bottom-style: solid;
+}
+.left-section{
+    background-color: lightblue;
+    display: flex;
+    flex-direction: row;
+    width:200px;
+    align-items: center;
+}
+.menu{
+    max-height: 30px;
+    max-width: 30px;
+    margin-left: 20px;
+    margin-right: 20px;
+
+}
+.ytlogo{
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    width: 40px;
+    padding: 0;
+}
+.middle-section{
+    display: flex;
+    flex:1;
+    align-items: center;
+    justify-content: center;
+    margin-left: 70px;
+    margin-right: 40px;
+    max-width: 700px;
+    
+}
+.searchbox{
+    flex:1;
+    min-width: 0;
+    height: 36px;
+    padding-left: 8px;
+    font-size: 16px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: gray;
+    border-radius: 4px;
+    box-shadow: inset 1px 2px 5px rgba(0,0,0,0.15) ;
+    width: 400px;;
+}
+.searchbox::placeholder{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 16px;;
+
+}
+.searchlens{
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    width: 60px;
+    padding: 0;
+    border-radius: 4px;
+    border-style: solid;
+    border-color: gray;
+    border-width: 1px;
+}
+.mic{
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    width: 40px;
+    padding: 0;
+    border:none;
+    background-color: white;
+}
+
+.right-section{
+    background-color: lightblue;
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: right;
+    flex-shrink: 0;
+}
+.upload{
+
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    width: 40px;
+    padding: 0;
+    border:none;
+    background-color: white;
+}
+.notification{
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    width: 40px;
+    padding: 0;
+    border:none;
+    background-color: white;
+}
+.account{
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    width: 40px;
+    padding: 0;
+    border:none;;
+    background-color: white;
+}
+.searchlens img,
+.menu img,
+.upload img,
+.notification img,
+.account img,
+.mic img{
+    width: 24px;
+    height: 24px;
+    object-fit: contain;
+}
